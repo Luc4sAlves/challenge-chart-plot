@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: 'Source Code Pro', monospace;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header{
+  background-color: #c7ccd4;
+  height: 40px;
+  width: 100%;
+  align-content: flex-end;
+  display: flex;
+}
+
+header .header-name{
+  margin-top: 8px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+
+footer{
+  background-color: #c7ccd4;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 3.4rem;
+}
+
+textarea {
+  background-color: #222224;
+  border: 1px solid #222224;
+  color: floralwhite;
+  padding: 8px;
+  resize: vertical;
+  width: 98.61%;
+  height: 150px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.body .body-form .body-form-submit{
+  color: aliceblue;
+  background: lightseagreen;
+  border: transparent;
+  border-radius: 4px;
+  height: 2.3rem;
+  width: 10rem;
+  margin-top: 0.5rem;
+  margin-left: 1.3rem;
+}
+
+.chart{
+  height: auto;
+}
