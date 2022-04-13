@@ -6,6 +6,7 @@ There are comments in the code talking about design choices and the code itself.
 There's also some notes about the project that I thought were good to state. These are located in the App.js file as comments.
 
 The design of the page is as follows:
-![image](chart_intellie.png, "Page design")
+![chart_intellie](https://user-images.githubusercontent.com/34653171/163223771-4dbcf0ff-4e9b-4ebd-825c-a658b396cd26.png)
+
 
 
