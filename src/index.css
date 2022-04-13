@@ -4,6 +4,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
@@ -32,6 +33,7 @@ footer{
   bottom: 0;
   width: 100%;
   height: 3.4rem;
+  z-index: 2;
 }
 
 textarea {
@@ -45,7 +47,7 @@ textarea {
   font-family: 'Source Code Pro', monospace;
 }
 
-.body .body-form .body-form-submit{
+.main-body .body-form .body-form-submit{
   color: aliceblue;
   background: lightseagreen;
   border: transparent;
@@ -56,6 +58,11 @@ textarea {
   margin-left: 1.3rem;
 }
 
+.main-body{
+  position: relative;
+}
+
 .chart{
   height: auto;
+  padding-bottom: 3.4rem;
 }

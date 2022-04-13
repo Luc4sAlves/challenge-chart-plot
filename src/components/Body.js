@@ -23,6 +23,8 @@ export default function Body(){
         let eventListString = chart.replace(/\r\n/g, "\n").split("\n");
         let obj = {}    
 
+        //I tried not using eval here but it was the best alternative I could find 
+        //Since it's just assigning an object to a variable it shouldn't be too dangerous
         for(let element in eventListString){
             eval("obj = " + eventListString[element])
             eventObjects.push(obj);
@@ -41,7 +43,7 @@ export default function Body(){
     }
 
     return(
-        <div className="body">
+        <div className="main-body">
             <form class = "body-form" onSubmit={handleSubmit}>
                 <div className="text-area">
                     <textarea spellCheck = {false} value={chart} onChange = {handleChange}></textarea>
@@ -52,5 +54,6 @@ export default function Body(){
             </form>
             {eventList.length > 0 && <Chart events = {eventList} lines = {lineHelper}/>}
         </div>
+        
     )
 }
